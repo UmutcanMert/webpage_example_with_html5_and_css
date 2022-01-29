@@ -1,0 +1,170 @@
+/*CSS FİLE*/
+*{
+   margin: 0px;
+   padding: 0px; 
+}
+#page{
+    width: 900px;
+    min-height: 300px;
+    border-style: none;
+    border-width: 1px;
+    margin: auto;
+   
+}
+#banner{
+    width: 898px;
+    min-height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    margin: auto;
+    background-color: yellow;
+    background-image: url(pictures/computerscience.jpg);
+    background-position: right;
+    background-position: 70px 500px;
+    
+}
+#logo{
+    width: 60px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: white;
+    position: relative;
+    background-image: url(pictures/turkishflag.jfif);
+    background-position-x: -40px;
+    background-position-y: center;
+    top: 20px;
+    left: 10px;
+    float: left;
+}
+#media{
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: white;
+    background-image: url(pictures/insta.png);
+    position: relative;
+    right: 10px;
+    top: 13px;
+    float: right;
+    background-position-y: center ;
+    background-position-x: center;
+}
+#mainmenu ul{
+    list-style-type: none;
+    width: 900px;
+    min-height: 70px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    background-color:lightcyan;
+    border-collapse: collapse;
+}
+#mainmenu ul li{
+    font-family:cursive ;
+    border-style: solid;
+    border-color:black;
+    font-weight:bolder;
+    border-collapse: collapse;
+}
+a{
+    text-decoration: none;
+}
+#mainmenu ul li a:hover{
+    color: brown;
+}
+#mainmenu ul li a:link{
+    color: blue;
+}
+#contents{
+    width: 630px;
+    height: 1000px;
+    border-style: solid;
+    border-width: 1px;
+    background-color:white;
+}
+#sidemenu{
+    width: 267px;
+    min-height: 1000px;
+    border-style: solid;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: 300px 1000px  ;
+    border-width: 1px;
+    position: relative;
+    left: 632px;
+    bottom: 1003px;
+}
+h1{
+    color:brown;
+}
+#contents ul li{
+    font-family: cursive;
+    color: black;
+    border-style: solid;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+    border-color: red;
+    text-decoration: underline ;
+    list-style-type: decimal;
+}
+#contents img{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 370px;
+    left: 200px;
+}
+p{
+   border-style: none;
+   position: relative;
+   bottom: 300px;
+   border-radius: 10px;
+   text-align:justify;
+   text-indent: 20px;
+   font-family: cursive;
+}
+#sidemenu ul li a{
+    color:chartreuse;
+    font-family: cursive;
+    text-transform:capitalize;
+    
+}
+#sidemenu ul li{
+    list-style-type: none;
+}
+#sidemenu h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#bottommenu{
+    width: 900px;
+    height: 100px;
+    border-style: solid;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 300px 1000px  ;
+    border-width: 1px;
+    position: relative;
+    bottom: 1000px;
+}
+#bottommenu a{
+    color:orangered ;
+    font-family: cursive;
+}
+#bottommenu p{
+    color:red;
+    position: relative;
+    bottom: 0px;
+    left: 300px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
